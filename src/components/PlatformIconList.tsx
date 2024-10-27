@@ -31,7 +31,6 @@ const PlatformIconList = ({ platforms }: Props) => {
   return (
     <>
       <HStack marginY={1}>
-        {" "}
         {platforms.map((platform) => (
           <Icon
             key={platform.id}

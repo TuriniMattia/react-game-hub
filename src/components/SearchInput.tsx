@@ -18,7 +18,7 @@ const SearchInput = ({ onSearch }: Props) => {
         <InputLeftElement children={<BsSearch />} />
         <Input
           ref={ref}
-          borderRadius={20}
+          borderRadius="md"
           placeholder="Cerca il titolo..."
           variant="filled"
         />

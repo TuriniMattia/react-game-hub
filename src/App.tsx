@@ -26,6 +26,8 @@ function App() {
         base: "1fr",
         lg: "200px 1fr",
       }}
+      padding={4}
+      gap={4}
     >
       <GridItem area="nav">
         <NavBar
